@@ -26,13 +26,6 @@ export default function Hero() {
 
       <div className="container relative z-10 flex flex-col items-center justify-center gap-4 text-center">
         <div ref={profileRef} className="relative h-32 w-32 overflow-hidden rounded-full border-2 border-primary">
-          <Image
-            src="/profile.jpg"
-            alt="Richardson Jayaputra"
-            fill
-            className="object-cover"
-            priority
-          />
         </div>
         <h1 ref={titleRef} className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
           Richardson Jayaputra
