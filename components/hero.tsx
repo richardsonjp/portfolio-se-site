@@ -2,7 +2,7 @@
 
 import { AnimatedBeam } from "@/components/ui/animated-beam"
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Gitlab, Linkedin, Mail } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import { useRef } from "react"
@@ -44,6 +44,12 @@ export default function Hero() {
               <Link href="https://github.com/richardsonjp" target="_blank" rel="noopener noreferrer">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
+              </Link>
+            </Button>
+            <Button asChild variant="outline" size="icon">
+              <Link href="https://gitlab.com/richardsonjp" target="_blank" rel="noopener noreferrer">
+                <Gitlab className="h-5 w-5" />
+                <span className="sr-only">Gitlab</span>
               </Link>
             </Button>
             <Button asChild variant="outline" size="icon">
