@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Education() {
   const educations = [
     {
-      degree: "Bachelor of Arts: Business Management",
+      degree: "Bachelor of Business Administration: Business Administration and Management",
       institution: "Binus University",
       year: "2023 - 2027",
       description: "Completed a comprehensive business management program with a focus on business management, marketing, and finance. Gained a strong foundation in business principles and practices that have been instrumental in my professional career.",
