@@ -35,7 +35,7 @@ export default function Hero() {
         </p>
         <div className="flex flex-wrap items-center justify-center gap-4">
           <Button asChild variant="outline" size="lg">
-            <Link href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <Link href="/RichardsonJayaputra-CV-2025.pdf" target="_blank" rel="noopener noreferrer">
               Download Resume
             </Link>
           </Button>
