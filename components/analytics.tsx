@@ -12,5 +12,5 @@ export function AnalyticsVercel({ debug = false }: AnalyticsProps) {
 }
 
 export function AnalyticsGoogle() {
-    return <GoogleTagManager gtmId="GTM-XXXXX" />
+    return <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID!} />
 }
